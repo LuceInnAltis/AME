@@ -1,0 +1,23 @@
+feat: Enhance BI dashboard with SCI-level analytics and V2 documents
+
+[Key Updates]
+1. 통계/계량경제학 모델 기반 Streamlit 대시보드 완비
+   - Panel Fixed Effects (고정효과) 모델을 통한 내생성 통제 가격 시뮬레이터 구축
+   - 다변량 시계열(VAR) 및 충격반응함수(IRF) 기반 원가 변동 골든타임(Time Lag) 시각화
+   - World Bank 오픈 API 연동 K-Means 군집 분석 및 잔차 기반 Pricing Anomaly 도출
+   - 비전공자용 UI/UX (Glassmorphism CSS, Tooltips 등) 접목
+
+2. V2 심화 버전 프로젝트 분석 문서 및 산출물 작성
+   - Project_Report_v2.md: 이론적 배경 강화 및 그래프별 Y축 단위 등 심층 해석 추가
+   - Presentation_Script_v2.md: 12장으로 확장된 임원진 프레젠테이션용 스크립트 작성
+   - interview_prep_v2.md: 학술 인용(Arellano, Sims 등) 및 면접 압박 방어 Q&A 로직 보강
+   - Streamlit_BI_Dashboard_Narrative.md: 데이터 출처 및 프론트-백 캐싱 활용 전략을 담은 개발 내러티브 추가
+
+3. 학술 논문급 (SCI-Level) 5종 맞춤형 시각화 생성 로직 배포 (`images/` 디렉토리 포함)
+   - 1_fe_vs_ols.png (막대/에러바 차트)
+   - 2_var_irf.png (신뢰구간 보강 차트)
+   - 3_cluster_scatter.png (비즈니스 타겟 색출 산점도)
+   - 4_macro_trends.png (환율/원가 이중추축)
+   - 5_correlation_heatmap.png (피어슨 상관관계)
+
+[Tech Stack] Python, Streamlit, pandas, statsmodels, linearmodels, scikit-learn, Plotly
